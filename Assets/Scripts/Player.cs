@@ -71,9 +71,9 @@ namespace Assets.Scripts
         {
             hp -= hpDamage;
 
-            if(hp > 0) return;
+            if (hp > 0) return;
 
-            Application.Quit(0);
+            Destroy(gameObject);
         }
     }
 }

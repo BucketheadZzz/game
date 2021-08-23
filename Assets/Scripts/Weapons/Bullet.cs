@@ -11,12 +11,12 @@ namespace Assets.Scripts.Weapons
         void OnCollisionEnter(Collision collision)
         {
             if (isColliding) return;
-
-            if (collision.gameObject.GetComponent<DamagableObject>() is IDamagable hitObject)
+            var damagable = collision.gameObject.GetComponent(typeof(IDamagable)) as IDamagable;
+            if (damagable != null)
             {
                 isColliding = true;
                 var weaponDamage = gameObject.GetComponentInParent<BaseWeapon>();
-                hitObject.Hit(weaponDamage.DamagePerBullet);
+                damagable.Hit(weaponDamage.DamagePerBullet);
             }
 
             Destroy(gameObject, bulletLifeTime);
