@@ -1,4 +1,5 @@
 using Assets.Helpers;
+using Assets.Scripts.Common;
 using UnityEngine;
 
 namespace Assets.Scripts.Weapons
@@ -13,7 +14,7 @@ namespace Assets.Scripts.Weapons
             var player = collision.GetPlayerGameObject();
             if (player != null)
             {
-                player.GetComponent<IDamagable>()?.Hit(damage);
+                player.GetComponent<IDamageable>()?.Hit(damage);
             }
         }
     }

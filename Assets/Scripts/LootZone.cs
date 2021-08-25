@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -14,14 +13,12 @@ namespace Assets.Scripts
 
         public GameObject Loot { get; private set; }
 
-        private static readonly System.Random random = new System.Random();
-
         void Awake()
         {
-            shouldGenerateLoot = random.Next(0, 10000) % 2 == 0;
+            shouldGenerateLoot = Random.Range(0, 10000) % 2 == 0;
             if (shouldGenerateLoot)
             {
-                var lootableIndex = random.Next(0, lootableItems.Length - 1);
+                var lootableIndex = Random.Range(0, lootableItems.Length - 1);
                 var itemToGenerate = lootableItems[lootableIndex];
                 Loot = Instantiate(itemToGenerate, transform.position, Quaternion.identity);
                 Loot.transform.parent = transform;

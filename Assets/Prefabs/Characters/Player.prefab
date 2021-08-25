@@ -1280,7 +1280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1313324505709223450}
-  - component: {fileID: 6590943092151147147}
+  - component: {fileID: 2040073915441943937}
   m_Layer: 0
   m_Name: weaponInventory
   m_TagString: Untagged
@@ -1302,7 +1302,7 @@ Transform:
   m_Father: {fileID: 3633648949754474097}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6590943092151147147
+--- !u!114 &2040073915441943937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2231620188168083118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c11210797c11714d82037c587ffa123, type: 3}
+  m_Script: {fileID: 11500000, guid: 94e5c1ada5415ed43b9664d4adf5cb4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defaultWeapon: {fileID: 1021747015938231386, guid: a845e11282ef06f49ba7b9fff3c11a8e, type: 3}
@@ -2177,7 +2177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3633648949754474097}
   - component: {fileID: 1648420774593355151}
-  - component: {fileID: 650660197}
+  - component: {fileID: 5239633492867455543}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2219,7 +2219,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.88, z: 0}
---- !u!114 &650660197
+--- !u!114 &5239633492867455543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2228,11 +2228,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4845412495783059879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35b69702ada8cdd4ab51e2d775767354, type: 3}
+  m_Script: {fileID: 11500000, guid: 162ed3f5c2a873843a645b0ccd87d043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement:
-    playerSpeed: 8
+    playerSpeed: 10
+  playerInfo:
+    maxHp: 100
+    currentHp: 100
 --- !u!1 &5005393376863604566
 GameObject:
   m_ObjectHideFlags: 0
