@@ -1,12 +1,14 @@
 ﻿using System;
 using Assets.Helpers;
+using Assets.Scripts.Common;
 using Assets.Scripts.Weapons;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace Assets.Scripts.Enemies
 {
-    public class Enemy : DamagableObject
+    public class Enemy : DamageableObject
     {
         private BaseWeapon weapon;
         private bool isEnemyInRange;
@@ -16,12 +18,15 @@ namespace Assets.Scripts.Enemies
 
         private NavMeshAgent navMeshAgent;
         private Transform currentWayPoint;
+        private bool isShouting;
+
         public Tuple<Transform, Transform> PathPositions;
 
         private void Awake()
         {
             weapon = GetComponentInChildren<BaseWeapon>();
             navMeshAgent = GetComponent<NavMeshAgent>();
+            navMeshAgent.avoidancePriority = Random.Range(1, 50);
         }
 
         private void Update()
@@ -39,14 +44,16 @@ namespace Assets.Scripts.Enemies
                 if (attackTemp < 0)
                     attackTemp = 0;
 
-                if (attackTemp == 0)
+                if (attackTemp == 0 && weapon != null)
                 {
-                    if (weapon != null)
-                    {
-                        weapon.Shoot();
-                        attackTemp = coolDown;
-                    }
+                    weapon.Shoot();
+                    attackTemp = coolDown;
+                    isShouting = true;
                 }
+            }
+            else
+            {
+                isShouting = false;
             }
         }
 
@@ -57,7 +64,7 @@ namespace Assets.Scripts.Enemies
                 transform.LookAt(enemyPosition);
             }
 
-            if (PathPositions != null)
+            if (PathPositions != null && !isShouting)
             {
                 Patrol();
             }
@@ -65,10 +72,17 @@ namespace Assets.Scripts.Enemies
 
         private void Patrol()
         {
-            if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance)
+            if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !isShouting)
             {
+                navMeshAgent.isStopped = false;
                 var newDestination = currentWayPoint == PathPositions.Item1 ? PathPositions.Item2 : PathPositions.Item1;
+                currentWayPoint = newDestination;
                 navMeshAgent.SetDestination(newDestination.position);
+            }
+
+            if (isShouting)
+            {
+                navMeshAgent.isStopped = true;
             }
         }
 

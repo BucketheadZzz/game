@@ -1,4 +1,5 @@
 using Assets.Helpers;
+using Assets.Scripts.Common;
 using UnityEngine;
 
 namespace Assets.Scripts.Weapons
@@ -8,12 +9,12 @@ namespace Assets.Scripts.Weapons
         [SerializeField]
         private int damage = 1000;
 
-        void OnCollisionEnter(Collision collision)
+        private void OnTriggerEnter(Collider collider)
         {
-            var player = collision.GetPlayerGameObject();
+            var player = collider.GetPlayerGameObject();
             if (player != null)
             {
-                player.GetComponent<IDamagable>()?.Hit(damage);
+                player.GetComponent<IDamageable>()?.Hit(damage);
             }
         }
     }

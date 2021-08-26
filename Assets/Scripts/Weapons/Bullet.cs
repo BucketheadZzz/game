@@ -1,3 +1,4 @@
+using Assets.Scripts.Common;
 using UnityEngine;
 
 namespace Assets.Scripts.Weapons
@@ -11,9 +12,10 @@ namespace Assets.Scripts.Weapons
         void OnCollisionEnter(Collision collision)
         {
             if (isColliding) return;
-            var damagable = collision.gameObject.GetComponent(typeof(IDamagable)) as IDamagable;
-            if (damagable != null)
+            var damagable = collision.gameObject.GetComponent(typeof(IDamageable)) as IDamageable;
+            if (damagable != null && !damagable.IsDead)
             {
+                Debug.Log("HIT");
                 isColliding = true;
                 var weaponDamage = gameObject.GetComponentInParent<BaseWeapon>();
                 damagable.Hit(weaponDamage.DamagePerBullet);

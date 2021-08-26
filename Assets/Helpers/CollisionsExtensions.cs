@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts;
+using Assets.Scripts.Player;
 using UnityEngine;
 
 namespace Assets.Helpers
