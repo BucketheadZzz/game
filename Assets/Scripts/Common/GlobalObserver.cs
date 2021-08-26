@@ -13,13 +13,13 @@ namespace Assets.Scripts.Common
         private UiObserver uiObserver;
 
         [SerializeField]
-        private KeyGenerator keyGenerator;
+        private KeyObserver keyObserver;
        
         void Awake()
         {
             uiObserver.Start();
+            keyObserver.Start();
             enemyObserver.Start();
-            keyGenerator.Start();
         }
     }
 }

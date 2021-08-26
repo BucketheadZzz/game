@@ -9,9 +9,9 @@ namespace Assets.Scripts.Weapons
         [SerializeField]
         private int damage = 1000;
 
-        void OnCollisionEnter(Collision collision)
+        private void OnTriggerEnter(Collider collider)
         {
-            var player = collision.GetPlayerGameObject();
+            var player = collider.GetPlayerGameObject();
             if (player != null)
             {
                 player.GetComponent<IDamageable>()?.Hit(damage);

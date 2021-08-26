@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2330356}
   - component: {fileID: -4975029345131958807}
   - component: {fileID: 2737677283602706549}
+  - component: {fileID: 9034774302073355390}
   m_Layer: 0
   m_Name: bomb
   m_TagString: Player
@@ -96,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.326142, y: 0.09444399, z: 0.367784}
-  m_Center: {x: 0, y: 0.0012139995, z: -0.010956988}
+  m_Size: {x: 0.326142, y: 0.42304653, z: 0.367784}
+  m_Center: {x: 0, y: 0.1982768, z: -0.010956983}
 --- !u!114 &2737677283602706549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +112,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1000
+--- !u!208 &9034774302073355390
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119916}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.163, y: 0.125, z: 0.18400002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.12, z: -0.011000001}
+  m_TimeToStationary: 0.5

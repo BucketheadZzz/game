@@ -2,25 +2,23 @@
 using Assets.Scripts.Common;
 using Assets.Scripts.Enemies;
 using UnityEngine;
-using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
 namespace Assets.Scripts.Level
 {
     [Serializable]
-    public class KeyGenerator
+    public class KeyGenerator : MonoBehaviour
     {
-        private int keysCount = 3;
+        private int keysCount;
         private int enemiesCount;
 
         [SerializeField]
         private GameObject key;
 
-        public void Start()
+        public void Init()
         {
             EnemyBroadcaster.Instance.CharacterKilled += OnEnemyKilled;
             EnemyBroadcaster.Instance.EnemiesSpawned += OnEnemiesSpawned;
-            KeysBroadcaster.Instance.BroadcastEvent(Events.KeyNumberGenerated, keysCount);
         }
 
         private void OnEnemyKilled(object info)
@@ -31,13 +29,13 @@ namespace Assets.Scripts.Level
                 var shouldSpawnKey = Random.Range(0, 1) == 1;
                 if (shouldSpawnKey)
                 {
-                    Object.Instantiate(key, enemyPosition.transform);
+                    Instantiate(key, enemyPosition.transform.position, Quaternion.identity);
                     keysCount--;
                 }
             }
             else
             {
-                Object.Instantiate(key, enemyPosition.transform);
+                Instantiate(key, enemyPosition.transform.position, Quaternion.identity);
                 keysCount--;
             }
 
@@ -48,6 +46,8 @@ namespace Assets.Scripts.Level
         private void OnEnemiesSpawned(object info)
         {
             enemiesCount = (int) info;
+            keysCount = enemiesCount > 1 ? enemiesCount / 2 : 1;
+            KeysBroadcaster.Instance.BroadcastEvent(Events.KeyNumberGenerated, keysCount);
         }
     }
 }

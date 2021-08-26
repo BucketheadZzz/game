@@ -1,4 +1,6 @@
-﻿using Assets.Scripts.Common;
+﻿using System.Linq;
+using Assets.Scripts.Common;
+using Assets.Scripts.Level;
 using Assets.Scripts.Weapons;
 using UnityEngine;
 
@@ -18,7 +20,8 @@ namespace Assets.Scripts.Player
         private WeaponInventory weaponInventory;
         private Inventory inventory;
 
-        public bool IsDead { get; set; }
+        public int ItemsCount => inventory.Items.Count();
+        public bool IsDead { get; private set; }
 
         private void Awake()
         {
@@ -68,6 +71,16 @@ namespace Assets.Scripts.Player
                 isInLootZoone = true;
                 currentLootZone = loozZone;
             }
+
+            var key = collider.GetComponent<Key>();
+            if (key != null)
+            {
+                var keyObject = collider.gameObject;
+                inventory.AddItem(keyObject);
+                Destroy(keyObject);
+
+                KeysBroadcaster.Instance.BroadcastEvent(Events.KeyFound);
+            }
         }
 
         private void OnTriggerExit(Collider collider)
@@ -88,6 +101,7 @@ namespace Assets.Scripts.Player
             if (playerInfo.CurrentHp > 0) return;
 
             IsDead = true;
+
             Destroy(gameObject);
         }
     }
