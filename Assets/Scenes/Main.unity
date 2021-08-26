@@ -1706,7 +1706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObserver:
-    maxEnemyToSpawn: 1
+    maxEnemyToSpawn: 5
   uiObserver:
     currentPlayerHpText: {fileID: 878153558}
     enemiesRemainText: {fileID: 1726174424}

@@ -40,6 +40,12 @@ namespace Assets.Scripts.Level
             }
 
             enemiesCount--;
+
+            if(keysCount == 0)
+            {
+                EnemyBroadcaster.Instance.CharacterKilled -= OnEnemyKilled;
+                EnemyBroadcaster.Instance.EnemiesSpawned -= OnEnemiesSpawned;
+            }
         }
 
 
