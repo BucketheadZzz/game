@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Threading;
 using Assets.Scripts.Common;
 using Assets.Scripts.Level;
 using Assets.Scripts.Weapons;
@@ -25,8 +26,8 @@ namespace Assets.Scripts.Player
 
         private void Awake()
         {
-            var characterComponent = GetComponent<CharacterController>();
-            playerMovement = new PlayerMovement(transform, characterComponent);
+            var playerRigidbody = GetComponent<Rigidbody>();
+            playerMovement = new PlayerMovement(playerRigidbody);
             weaponInventory = GetComponentInChildren<WeaponInventory>();
             currentWeapon = GetComponentInChildren<BaseWeapon>();
             inventory = new Inventory();
@@ -39,8 +40,6 @@ namespace Assets.Scripts.Player
 
         private void Update()
         {
-            playerMovement?.Move();
-
             if (Input.GetButtonDown("Fire1"))
             {
                 currentWeapon.Shoot();
@@ -50,6 +49,29 @@ namespace Assets.Scripts.Player
             {
                 Loot();
             }
+
+            if (Input.GetButtonDown("ChooseFirstWeapon"))
+            {
+                ChangeWeapon(1);
+            }
+
+            if (Input.GetButtonDown("ChooseSecondWeapon"))
+            {
+                ChangeWeapon(2);
+            }
+
+            playerMovement?.Move();
+        }
+
+        //private void FixedUpdate()
+        //{
+           
+        //}
+
+        private void ChangeWeapon(int index)
+        {
+            currentWeapon = weaponInventory.ChangeWeapon(index).GetComponent<BaseWeapon>();
+            currentWeapon.transform.rotation = transform.rotation;
         }
 
         private void Loot()
@@ -93,6 +115,11 @@ namespace Assets.Scripts.Player
             }
         }
 
+        private void OnCollisionEnter(Collision collisionInfo)
+        {
+            playerMovement.OnCollisionEnter(collisionInfo);
+        }
+
         public void Hit(int hpDamage)
         {
             playerInfo.CurrentHp -= hpDamage;
@@ -102,7 +129,7 @@ namespace Assets.Scripts.Player
 
             IsDead = true;
 
-            Destroy(gameObject);
+            Destroy(gameObject, 2f);
         }
     }
 }

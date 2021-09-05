@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts.Player
@@ -5,12 +6,13 @@ namespace Assets.Scripts.Player
     public class WeaponInventory : MonoBehaviour
     {
         [SerializeField] 
-        public GameObject defaultWeapon;
+        private GameObject[] weapons;
 
         private GameObject currentWeapon;
 
         private void Awake()
         {
+            var defaultWeapon = weapons.First();
             currentWeapon = Instantiate(defaultWeapon, transform.position, Quaternion.identity);
             currentWeapon.transform.parent = transform;
         }
@@ -23,6 +25,12 @@ namespace Assets.Scripts.Player
             currentWeapon.transform.parent = transform;
 
             return currentWeapon;
+        }
+
+        public GameObject ChangeWeapon(int index)
+        {
+            var newWeapon = weapons[index - 1];
+            return ChangeWeapon(newWeapon);
         }
     }
 }

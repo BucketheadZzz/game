@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 namespace Assets.Scripts.Player
 {
@@ -8,53 +9,44 @@ namespace Assets.Scripts.Player
     {
         #region Movement
         [SerializeField]
-        private float playerSpeed = 8.0f;
-        private Vector3 playerVelocity;
-        private bool groundedPlayer;
-        private float jumpHeight = 8.0f;
-        private float gravityValue = -9.81f;
-        private CharacterController characterController;
-        private Transform transform;
+        private float playerSpeed = 10.0f;
+        private float jumpHeight = 40.0f;
         private bool isJump;
+        private Rigidbody rigidbody;
 
         #endregion
 
-        public PlayerMovement(Transform transform, CharacterController characterController)
+        public PlayerMovement(Rigidbody rigidbody)
         {
-            this.transform = transform;
-            this.characterController = characterController;
+            this.rigidbody = rigidbody;
         }
 
         // Update is called once per frame
         public void Move()
         {
-            groundedPlayer = characterController.isGrounded;
 
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            move.Normalize();
 
             if (move != Vector3.zero)
             {
-                characterController.Move(move * Time.deltaTime * playerSpeed);
-                transform.forward = move;
+                move = move * playerSpeed * Time.deltaTime;
+                rigidbody.MovePosition(rigidbody.position + move);  
+                rigidbody.transform.forward = move;
             }
 
             if (Input.GetButtonDown("Jump") && !isJump)
             {
-                playerVelocity.y += Mathf.Sqrt(jumpHeight * -1.0f * gravityValue);
+                Debug.Log("Jump");
+                rigidbody.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
                 isJump = true;
             }
+        }
 
-            if (!groundedPlayer)
-            {
-                playerVelocity.y += gravityValue * Time.deltaTime;
-            }
-            else if (playerVelocity.y < 0)
-            {
-                playerVelocity.y = 0;
-                isJump = false;
-            }
 
-            characterController.Move(playerVelocity * Time.deltaTime);
+        public void OnCollisionEnter(Collision collisionInfo)
+        {
+            isJump = collisionInfo.transform.tag == "Ground";
         }
     }
 

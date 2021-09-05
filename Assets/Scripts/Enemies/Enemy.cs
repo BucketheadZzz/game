@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Assets.Helpers;
 using Assets.Scripts.Common;
 using Assets.Scripts.Weapons;
@@ -11,16 +12,23 @@ namespace Assets.Scripts.Enemies
     public class Enemy : DamageableObject
     {
         private BaseWeapon weapon;
-        private bool isEnemyInRange;
         private float attackTemp;
         private const float coolDown = 1f;
-        private Transform enemyPosition;
 
         private NavMeshAgent navMeshAgent;
         private Transform currentWayPoint;
         private bool isShouting;
 
         public Tuple<Transform, Transform> PathPositions;
+
+        [SerializeField]
+        private Transform headPoint;
+
+        private GameObject discoveredEnemy;
+        private float maxObservationRange = 15f;
+        private float maxRangeTilEnemy = 16f;
+        private float weaponRange = 12f;
+        private float pursuingEnemyCooldown = 2f;
 
         private void Awake()
         {
@@ -31,12 +39,44 @@ namespace Assets.Scripts.Enemies
 
         private void Update()
         {
+            FindEnemy();
+            CheckEnemyPosition();
             AttackIfPossible();
+        }
+
+        private void FixedUpdate()
+        {
+            if (discoveredEnemy != null)
+            {
+                transform.LookAt(discoveredEnemy.transform);
+            }
+
+            if (PathPositions != null)
+            {
+                Patrol();
+            }
+        }
+
+        private void CheckEnemyPosition()
+        {
+            if (discoveredEnemy == null) return;
+
+            float dist = Vector3.Distance(transform.position, discoveredEnemy.transform.position);
+            if (dist > maxRangeTilEnemy)
+            {
+                StartCoroutine(ResetObservedEnemy());
+            }
+        }
+
+        private IEnumerator ResetObservedEnemy()
+        {
+            yield return new WaitForSeconds(pursuingEnemyCooldown);
+            discoveredEnemy = null;
         }
 
         private void AttackIfPossible()
         {
-            if (isEnemyInRange)
+            if (discoveredEnemy != null && Vector3.Distance(transform.position, discoveredEnemy.transform.position) <= weaponRange)
             {
                 if (attackTemp > 0)
                     attackTemp -= Time.deltaTime;
@@ -57,52 +97,43 @@ namespace Assets.Scripts.Enemies
             }
         }
 
-        private void FixedUpdate()
+        private void FindEnemy()
         {
-            if (enemyPosition != null)
-            {
-                transform.LookAt(enemyPosition);
-            }
+            if (discoveredEnemy != null) return;
 
-            if (PathPositions != null && !isShouting)
+            var isHit = Physics.BoxCast(transform.position, transform.lossyScale / 2, transform.forward,
+                out RaycastHit hit, transform.rotation, maxObservationRange);
+            if (isHit && hit.collider.GetPlayerGameObject() != null)
             {
-                Patrol();
+                discoveredEnemy = hit.collider.GetPlayerGameObject();
             }
         }
 
         private void Patrol()
         {
-            if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !isShouting)
+            if (discoveredEnemy != null && !isShouting)
             {
-                navMeshAgent.isStopped = false;
-                var newDestination = currentWayPoint == PathPositions.Item1 ? PathPositions.Item2 : PathPositions.Item1;
-                currentWayPoint = newDestination;
-                navMeshAgent.SetDestination(newDestination.position);
+                var dist = Vector3.Distance(transform.position, discoveredEnemy.transform.position);
+                if (dist > weaponRange && dist < maxRangeTilEnemy)
+                {
+                    navMeshAgent.SetDestination(discoveredEnemy.transform.position);
+                    navMeshAgent.isStopped = false;
+                }
+            }
+            else
+            {
+                if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !isShouting)
+                {
+                    navMeshAgent.isStopped = false;
+                    var newDestination = currentWayPoint == PathPositions.Item1 ? PathPositions.Item2 : PathPositions.Item1;
+                    currentWayPoint = newDestination;
+                    navMeshAgent.SetDestination(newDestination.position);
+                }
             }
 
             if (isShouting)
             {
                 navMeshAgent.isStopped = true;
-            }
-        }
-
-        private void OnTriggerEnter(Collider collider)
-        {
-            var player = collider.GetPlayerGameObject();
-            if (player != null)
-            {
-                enemyPosition = player.transform;
-                isEnemyInRange = true;
-            }
-        }
-
-        private void OnTriggerExit(Collider collider)
-        {
-            var player = collider.GetPlayerGameObject();
-            if (player != null)
-            {
-                isEnemyInRange = false;
-                enemyPosition = null;
             }
         }
 

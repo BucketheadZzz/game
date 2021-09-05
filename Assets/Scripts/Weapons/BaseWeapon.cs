@@ -17,6 +17,8 @@ namespace Assets.Scripts.Weapons
         [SerializeField]
         public int DamagePerBullet = 20;
 
+        public float WeaponRange = 60f;
+
         protected AudioSource shotSound;
 
         private void Awake()

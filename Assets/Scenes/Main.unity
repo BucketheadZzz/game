@@ -271,6 +271,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &128095489 stripped
@@ -336,6 +348,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -403,6 +427,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &147832637 stripped
@@ -468,6 +504,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -736,6 +784,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &215175451 stripped
@@ -801,6 +861,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -929,6 +1001,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &314081332 stripped
@@ -995,6 +1079,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &317743197 stripped
@@ -1060,6 +1156,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -1189,6 +1297,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &354590023 stripped
@@ -1317,6 +1437,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &436300106 stripped
@@ -1443,6 +1575,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -1585,6 +1729,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &471035617 stripped
@@ -1706,7 +1862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObserver:
-    maxEnemyToSpawn: 5
+    maxEnemyToSpawn: 1
   uiObserver:
     currentPlayerHpText: {fileID: 878153558}
     enemiesRemainText: {fileID: 1726174424}
@@ -1839,6 +1995,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &615569344 stripped
@@ -1904,6 +2072,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -1971,6 +2151,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &644905165 stripped
@@ -2036,6 +2228,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -2103,6 +2307,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &739898493 stripped
@@ -2168,6 +2384,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -2235,6 +2463,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &822041238 stripped
@@ -2300,6 +2540,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -2446,6 +2698,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &880708177 stripped
@@ -2511,6 +2775,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -2821,6 +3097,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &967303506 stripped
@@ -2886,6 +3174,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -2953,6 +3253,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &993212309 stripped
@@ -3018,6 +3330,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -3085,6 +3409,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1005770946 stripped
@@ -3150,6 +3486,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -3217,6 +3565,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1018615844 stripped
@@ -3283,6 +3643,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1044760008 stripped
@@ -3348,6 +3720,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -3511,6 +3895,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1120647293 stripped
@@ -3576,6 +3972,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -3643,6 +4051,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1125532397 stripped
@@ -3709,6 +4129,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1127927795 stripped
@@ -3774,6 +4206,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -3866,7 +4310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3633648949754474097, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13682747
+      value: 0.175
       objectReference: {fileID: 0}
     - target: {fileID: 3633648949754474097, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3903,14 +4347,6 @@ PrefabInstance:
     - target: {fileID: 4845412495783059879, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5239633492867455543, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
-      propertyPath: playerInfo.maxHp
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5239633492867455543, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
-      propertyPath: playerInfo.currentHp
-      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3e2923ff39b63d40a1f510c7c7940b5, type: 3}
@@ -4071,6 +4507,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1249534611 stripped
@@ -4136,6 +4584,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4207,6 +4667,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4359,6 +4831,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1319314907 stripped
@@ -4424,6 +4908,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4491,6 +4987,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1389432218 stripped
@@ -4556,6 +5064,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4623,6 +5143,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1419480729 stripped
@@ -4688,6 +5220,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4755,6 +5299,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1440125182 stripped
@@ -4820,6 +5376,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -4887,6 +5455,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1460246277 stripped
@@ -4953,6 +5533,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1511273546 stripped
@@ -5018,6 +5610,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -5946,10 +6550,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: bomb (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 119916, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5960,7 +6560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.37
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5993,6 +6593,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -6060,6 +6672,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1663327194 stripped
@@ -6125,6 +6749,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -6454,6 +7090,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1734034185 stripped
@@ -6519,6 +7167,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -6586,6 +7246,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1806036914 stripped
@@ -6651,6 +7323,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -6718,6 +7402,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1818633630 stripped
@@ -6783,6 +7479,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -6850,6 +7558,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1857027383 stripped
@@ -6916,6 +7636,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1875020099 stripped
@@ -6948,7 +7680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.37
+      value: 2.51
       objectReference: {fileID: 0}
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6981,6 +7713,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -7042,6 +7786,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -7109,6 +7865,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1916947721 stripped
@@ -7174,6 +7942,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
@@ -7241,6 +8021,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
 --- !u!4 &1987873408 stripped
@@ -7306,6 +8098,18 @@ PrefabInstance:
     - target: {fileID: 491850, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: IsSet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737677283602706549, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
+      propertyPath: DamagePerBullet
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a73e26f88957b343af0490c9403c8f0, type: 3}
