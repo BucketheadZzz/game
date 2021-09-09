@@ -8,6 +8,8 @@
 
         PlayerHpChanged,
 
+        PlayerDied,
+
         KeyNumberGenerated,
 
         KeyFound

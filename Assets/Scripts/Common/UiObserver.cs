@@ -4,6 +4,7 @@ using Assets.Scripts.Level;
 using Assets.Scripts.Player;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.Common

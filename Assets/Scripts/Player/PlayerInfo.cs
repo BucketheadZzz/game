@@ -14,14 +14,14 @@ namespace Assets.Scripts.Common
 
         public int Max
         {
-            get { return maxHp; }
-            set { maxHp = value; }
+            get => maxHp;
+            set => maxHp = value;
         }
 
         public int CurrentHp
         {
-            get { return currentHp; }
-            set { currentHp = value; }
+            get => currentHp > 0 ? currentHp : 0;
+            set => currentHp = value;
         }
     }
 }

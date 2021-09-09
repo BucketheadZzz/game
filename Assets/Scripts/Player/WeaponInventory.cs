@@ -13,7 +13,7 @@ namespace Assets.Scripts.Player
         private void Awake()
         {
             var defaultWeapon = weapons.First();
-            currentWeapon = Instantiate(defaultWeapon, transform.position, Quaternion.identity);
+            currentWeapon = Instantiate(defaultWeapon, transform.position, transform.rotation);
             currentWeapon.transform.parent = transform;
         }
 
@@ -21,7 +21,7 @@ namespace Assets.Scripts.Player
         {
             Destroy(currentWeapon);
 
-            currentWeapon = Instantiate(newWeapon, transform.position, Quaternion.identity);
+            currentWeapon = Instantiate(newWeapon, transform.position, transform.rotation);
             currentWeapon.transform.parent = transform;
 
             return currentWeapon;

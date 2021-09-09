@@ -20,6 +20,7 @@ namespace Assets.Scripts.Player
         private LootZone currentLootZone;
         private WeaponInventory weaponInventory;
         private Inventory inventory;
+        private Animator animator;
 
         public int ItemsCount => inventory.Items.Count();
         public bool IsDead { get; private set; }
@@ -27,7 +28,8 @@ namespace Assets.Scripts.Player
         private void Awake()
         {
             var playerRigidbody = GetComponent<Rigidbody>();
-            playerMovement = new PlayerMovement(playerRigidbody);
+            animator = GetComponent<Animator>();
+            playerMovement = new PlayerMovement(playerRigidbody, animator);
             weaponInventory = GetComponentInChildren<WeaponInventory>();
             currentWeapon = GetComponentInChildren<BaseWeapon>();
             inventory = new Inventory();
@@ -42,7 +44,7 @@ namespace Assets.Scripts.Player
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                currentWeapon.Shoot();
+                animator.SetTrigger("Shoot");
             }
 
             if (Input.GetButtonDown("Interact") && isInLootZoone)
@@ -63,10 +65,10 @@ namespace Assets.Scripts.Player
             playerMovement?.Move();
         }
 
-        //private void FixedUpdate()
-        //{
-           
-        //}
+        public void Shoot()
+        {
+            currentWeapon.Shoot();
+        }
 
         private void ChangeWeapon(int index)
         {
@@ -129,7 +131,12 @@ namespace Assets.Scripts.Player
 
             IsDead = true;
 
-            Destroy(gameObject, 2f);
+            PlayerBroadcaster.Instance.BroadcastEvent(Events.PlayerDied);
+        }
+
+        public void Suicide()
+        {
+            Hit(playerInfo.CurrentHp);
         }
     }
 }

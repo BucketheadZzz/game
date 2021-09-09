@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 8283149026822694602}
   bulletSpeed: 100
   DamagePerBullet: 80
+  WeaponRange: 60
 --- !u!82 &-4541052374271651451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -61,7 +62,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 93f55ba338e13074e8469de273f07a6d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 36c0445ca1ee8324294d897d98b5a1ed, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
