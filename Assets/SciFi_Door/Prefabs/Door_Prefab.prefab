@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400000}
+  - component: {fileID: 1665186996213804410}
+  - component: {fileID: 7891859763084636985}
   m_Layer: 0
   m_Name: Door_Prefab
   m_TagString: Untagged
@@ -33,6 +35,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665186996213804410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1975310f9e226ad41be662562353f030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpenableDoor: 0
+--- !u!65 &7891859763084636985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.752787, y: 4.68468, z: 3.659421}
+  m_Center: {x: -1.3816974, y: 1.8423405, z: -1.3297105}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,8 +170,6 @@ GameObject:
   - component: {fileID: 3300002}
   - component: {fileID: 2300002}
   - component: {fileID: 6500000}
-  - component: {fileID: 13500000}
-  - component: {fileID: 114318827644022270}
   m_Layer: 0
   m_Name: base
   m_TagString: Untagged
@@ -228,31 +254,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.9544897, y: 2.0236135, z: 0.15222564}
   m_Center: {x: -9.554158e-16, y: -0.0000004995206, z: 0.07611252}
---- !u!135 &13500000
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3
-  m_Center: {x: -9.554158e-16, y: -0.0000004995206, z: 0.07611252}
---- !u!114 &114318827644022270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1975310f9e226ad41be662562353f030, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,8 +446,8 @@ Animation:
   m_Animation: {fileID: 0}
   m_Animations:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 788698ac0388d224ca96f4fc598e0f1d, type: 2}
+  - {fileID: 7400000, guid: 54882b8bbe843b2409afc26438a4d290, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0

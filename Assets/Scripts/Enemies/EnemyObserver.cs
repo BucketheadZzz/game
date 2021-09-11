@@ -1,56 +1,43 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Common;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Assets.Scripts.Enemies
 {
-    public class EnemyObserver : MonoBehaviour
+    [Serializable]
+    public class EnemyObserver : IObserver
     {
         private IList<IEnemySpawner> enemySpawners;
 
         [SerializeField]
         private int maxEnemyToSpawn = 10;
 
-        private int currentKilledEnemy;
+        private int currentlySpawned;
 
-        private System.Random random;
-
-        private void Awake()
+        public void Start()
         {
-            EnemyKillBroadcaster.GetCurrentInstance().EnemyKilled += OnEnemyKilled;
+            enemySpawners = Resources.FindObjectsOfTypeAll(typeof(EnemySpawner)).Select(x => x as IEnemySpawner).ToList();
+            Spawn();
         }
 
-        private void Start()
+        private void Spawn()
         {
-            enemySpawners = FindObjectsOfType<MonoBehaviour>().OfType<IEnemySpawner>().ToList();
-            random = new System.Random();
-        }
-        private void Update()
-        {
-            if (enemySpawners != null)
+            if (enemySpawners != null && enemySpawners.Count > 0)
             {
-                var enemyCount = enemySpawners.Sum(x => x.EnemySpawned);
-
-                if (currentKilledEnemy == maxEnemyToSpawn)
+                while (currentlySpawned != maxEnemyToSpawn)
                 {
-                    return;
+                    var spawnerIndex = Random.Range(0, enemySpawners.Count);
+                    var spawner = enemySpawners[spawnerIndex];
+
+                    spawner.SpawnEnemy();
+                    currentlySpawned++;
                 }
 
-                if (enemyCount  == maxEnemyToSpawn)
-                {
-                    return;
-                }
-
-                var spawnerIndex = random.Next(0, enemySpawners.Count);
-                var spawner = enemySpawners[spawnerIndex];
-
-                spawner.SpawnEnemy();
+                EnemyBroadcaster.Instance.BroadcastEvent(Events.EnemiesSpawned, currentlySpawned);
             }
-        }
-
-        private void OnEnemyKilled()
-        {
-            currentKilledEnemy++;
         }
     }
 }

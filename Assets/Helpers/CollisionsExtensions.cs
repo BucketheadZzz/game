@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts;
+using Assets.Scripts.Player;
 using UnityEngine;
 
 namespace Assets.Helpers
@@ -12,7 +13,7 @@ namespace Assets.Helpers
 
         public static GameObject GetPlayerGameObject(this Collider collider)
         {
-            return collider.gameObject.GetComponent(typeof(IPlayer))?.gameObject;
+            return collider?.gameObject?.GetComponent(typeof(IPlayer))?.gameObject;
         }
     }
 }
